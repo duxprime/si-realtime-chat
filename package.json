@@ -1,0 +1,15 @@
+{
+  "name": "si-realtime-chat",
+  "version": "1.0.0",
+  "description": "SI realtime chat front end written in Vue and TypeScript.",
+  "main": "index.js",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chris Duxbury",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "domain",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Library containing SI chat domain model definitions and services that provide them.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Not yet implemented'"
+    },
+    "author": "Chris Duxbury",
+    "license": "ISC",
+    "dependencies": {
+        "reflect-metadata": "^0.2.1",
+        "injection-js": "^2.4.0"
+    }
+}

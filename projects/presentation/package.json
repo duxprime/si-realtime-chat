@@ -1,0 +1,15 @@
+{
+    "name": "presentation",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Component library for SI chat.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Not yet implemented'"
+    },
+    "author": "Chris Duxbury",
+    "license": "ISC",
+    "dependencies": {
+        "vue": "^3.4.15"
+    }
+}
