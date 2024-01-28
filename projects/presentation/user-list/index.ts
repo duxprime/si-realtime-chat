@@ -1,0 +1,1 @@
+export { default as UserListComponent } from './user-list.component.vue';
