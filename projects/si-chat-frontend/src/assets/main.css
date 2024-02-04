@@ -3,7 +3,35 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply h-full
+    }
+
     body {
-        @apply bg-stone-800 text-neutral-50 p-6 font-mono
+        @apply bg-stone-800 text-neutral-50 p-6 font-mono h-full
+    }
+
+    input {
+        @apply bg-inherit border-b-2
+    }
+
+    input:focus, input:focus-visible {
+        @apply outline-none
+    }
+
+    input::placeholder {
+        @apply text-stone-600
+    }
+
+    label {
+        @apply p-3
+    }
+
+    button {
+        @apply before:content-['_\[_'] after:content-['_\]_']
+    }
+
+    button:disabled {
+        @apply line-through cursor-not-allowed;
     }
 }
